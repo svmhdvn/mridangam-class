@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Siva's Mridangam Class"
+theme = "bmfw"
