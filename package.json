@@ -1,0 +1,25 @@
+{
+  "name": "mridangam-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svmhdvn/mridangam-class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svmhdvn/mridangam-class/issues"
+  },
+  "homepage": "https://github.com/svmhdvn/mridangam-class#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.6.1",
+    "katex": "^0.9.0-beta"
+  }
+}

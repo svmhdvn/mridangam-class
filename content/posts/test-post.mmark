@@ -4,4 +4,12 @@ date: 2018-01-20T23:14:44-08:00
 ---
 This is a test post.
 
-$$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi $$
+$$
+\begin{alignedat}{3}
+& \underbrace{\overline{\text{thari thana kida thaka thaka thari kida thaka}}}_{8} \quad && (\underbrace{\text{thiingu}}_{3}) \times 3 \quad && (\underbrace{\text{thathinkinathom}}_{5}) \times 3 \\
+& \overline{\text{thari thana kida thaka thaka thari kida thaka}} && (\text{thiingu}) \times 2 && (\text{thathin, kinathom}) \times 3 \\
+& \overline{\text{thari thana kida thaka thaka thari kida thaka}} && (\text{thiingu}) \times 1 && (\text{tha, thin, kinathom}) \times 3 \\
+& \overline{\text{thari thana kida thaka thaka thari kida thaka}} && && (\text{thathom, thinkinathom}) \times 3 \\
+& \overline{\text{kida thaka thari kida thaka}} && && (\text{tha, thom, thathinkinathom}) \times 3
+\end{alignedat}
+$$
