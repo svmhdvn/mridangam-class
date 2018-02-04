@@ -2,7 +2,20 @@
 title: "Test Post"
 date: 2018-01-20T23:14:44-08:00
 ---
-This is a test post.
+
+### Adi thalam, sama edam
+
+$$
+\begin{alignedat}{4}
+& \text{thath thin thin na} \quad && \text{nana thin thin na} \quad &&
+  \text{thath thin thin na} \quad && \text{kida gugu nakajonu} \\
+& \text{thath thin thin na} && \text{nana thin thin na} &&
+  \text{thath thin thin na} && \text{kida gugu nakajonu} \\ \\
+& && && \text{thath thin thin na} && \text{kida gugu nakajonu} \\ 
+& && && \text{nana thin thin na} && \text{kida gugu nakajonu}
+\end{alignedat}
+$$
+
 
 $$
 \begin{alignedat}{3}

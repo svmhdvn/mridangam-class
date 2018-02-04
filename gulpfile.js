@@ -1,12 +1,16 @@
 var gulp = require('gulp');
-var replace = require('gulp-replace');
+var cheerio = require('gulp-cheerio');
 var katex = require('katex');
 
 gulp.task('default', function() {
 	return gulp.src('public/**/*.html')
-	.pipe(replace(/^\\\[([\s\S]*)\\\]$/g, function(match, p1) {
-		console.log('found math');
-		return katex.renderToString(p1);
+	.pipe(cheerio(function($, file) {
+		$('span.math').each(function() {
+			var span = $(this);
+			span.replaceWith(katex.renderToString(span.text().replace(/(\\\[|\\\])/g, ""), {
+				displayMode: true
+			}));
+		});
 	}))
 	.pipe(gulp.dest('public'));
 });
